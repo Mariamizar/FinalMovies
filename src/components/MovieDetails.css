@@ -1,0 +1,70 @@
+.details-container {
+  margin-top: 90px;
+  display: flex;
+  align-items: center; /* Center poster and details vertically */
+  gap: 40px;
+  padding: 0 40px;
+  min-height: 500px; /* Ensures enough height for vertical centering */
+  box-sizing: border-box;
+}
+
+.details-container img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  min-width: 0;
+}
+
+.movie-details h3 {
+  font-size: 30px;
+  color: #d1d5db;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+.movie-details p {
+  display: flex;
+  align-items: baseline;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #d1d5db;
+  margin: 0 0 12px 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.details {
+  font-weight: 700;
+  font-size: 20px;
+  color: #d1d5db;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+/* Special case for overview row */
+.overview {
+  display: block;
+  font-size: 18px;
+  margin-top: 24px;
+  color: #d1d5db;
+  white-space: pre-line;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.6;
+}
+.overview .details {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 4px;
+  margin-right: 0;
+}

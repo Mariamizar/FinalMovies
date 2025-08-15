@@ -1,0 +1,33 @@
+nav {
+  /* Changed from 'navbar' to 'nav' to match JSX */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: #0f172a;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  z-index: 1000;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+.title {
+  color: #ff5733;
+  font-size: 25px;
+  font-weight: 800;
+}
+.end {
+  display: flex;
+  gap: 1.5rem;
+  margin-left: auto;
+}
+
+.end a:hover {
+  color: #f0c14b;
+}
